@@ -1,0 +1,15 @@
+h3{
+	text-align:center;
+}
+#left{
+	float: left;
+}
+#right{
+	float:right;
+}
+#center{
+	text-align:center;
+}
+fieldset{
+	text-align:center;
+}
