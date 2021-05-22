@@ -1,0 +1,17 @@
+#head{
+	background-color:lightblue;
+	color:white;
+	text-align:center;
+}
+#cat1{
+	background-color:green;
+	color:darkblue;
+	width:100%;
+	height:100%;
+}
+#cat2{
+	background-color:pink;
+	color:green;
+	height:100%;
+	width:100%;
+}
