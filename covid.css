@@ -1,0 +1,20 @@
+h1{
+	color:blue;
+	font:Arial;
+}
+h2{
+	color:purple;
+	font:Helvetica;
+}
+#head{
+	background-color:lightgrey;
+	color:blue;
+	padding:10px;
+	border:1px solid darkgrey;
+}
+#info{
+	background-color:pink;
+	color:purple;
+	padding:10px;
+	border:1px solid orange;
+}
