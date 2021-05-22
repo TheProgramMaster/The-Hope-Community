@@ -3,11 +3,17 @@ body{
 	padding: 20px;
 	background: #f1f1f1;
 }
+img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
 .header{
 	padding:30px;
 	font-size:40px;
 	text-align:center;
 	background:white;
+	background-image:url("https://lh3.googleusercontent.com/_Tmk4nO2IvcdY_a4Yr1U5pTAnVKTGkIFKvFrgnynAwUkg87uw4aYXnI_jnTw3qN3MRbG_VciA9AjzFiyjZIa_QWAvkRMvUAvTsdsDB1hQSnMfhyb_FlKs1CgZpVnoJ2T01TRyxV0iqIs5iZn4hQDXt_ZvrnF5KzNy0y8xsIbDQbZHiY1CTO7pz_mlV9m8BUKWla76bXQIUC7na9dBuzGowADAxpA-rjDLqP23pPkK94flf7UKatmA7b8kQu22DA-7N4LYv-f9ogp44QOXlFCK2llC1P0d9Bwh_M_F0n1sk0b7cNryXJecP1Qwb50H-KIx39hBOSJM6hjBopz7mbRMrqnc9bCByDlpWyq9Z_VjyKzHjmLyxpyIDNSb1Te8Jtc-G0dW3Q_CouiVMyUR9xyRQaQLRjnTI_CWpAU4swi1VT3BNDIhphWpE1LGmvWe12-RxMFG1qTGzoSsaDTuN4Fh82x0YB1GPztXDY5ExN9WQTddTKFEqmuFKkWSaKJSGpnbRRB_HNrrZGvrsHYYo6EXfAaovxhR-UZ8aJ1xxRbeU7u1nAv0l7LCDFJAsxU6uN6rcITESpg0WQvN-AlrzQnBzxGquVHLSRROiAw-F4BVC1gaj0yfybTY69yTabtibFrBjzoBAEqRAu_C5lTLJahRGDJ_-Ws0x5OEn4Pw74imla6NcOye5xAR0Rf9HWlzr_KSJA319QYRdLwmM48woG6SzU=w828-h315-no?authuser=0");
 }
 header{
 	background-image:url("/Users/gavin/OneDrive/Pictures/Saved Pictures/hope.png");
@@ -23,7 +29,7 @@ header{
 }
 .fakeimg{
 	background-color:#aaa;
-	width:100%;
+	width:90%;
 	padding:20px;
 }
 .card{
@@ -41,6 +47,11 @@ header{
 	text-align:center;
 	background:#ddd;
 	margin-top:20px;
+}
+#boxes{
+	content:"";
+	display:table;
+	clear:both;
 }
 @media screen and (max-width:800px){
 	.leftcolumn, .rightcolumn{
