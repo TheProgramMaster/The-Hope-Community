@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Messaging Chat</title>
+	<style>
+		.container{
+			border:2px solid #dedede;
+			background-color:#f1f1f1;
+			border-radius:5px;
+			padding:10px;
+			margin:10px 0;
+		}
+		.darker{
+			border-color:#ccc;
+			background-color:#ddd;
+		}
+		.container::after{
+			content:"";
+			clear:both;
+			display:table;
+		}
+		.container img{
+			float:left;
+			max-width:60px;
+			width:100%;
+			margin-right:20px;
+			border-radius:50%;
+		}
+		.container img.right{
+			float:right;
+			margin-left:20px;
+			margin-right:0;
+		}
+		.time-right{
+			float:right;
+			color:#aaa;
+		}
+		.time-left{
+			float:left;
+			color:#999;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<img src="https://th.bing.com/th/id/R9ede930fd3fdb39399a4947913f50fe2?rik=0AECjN9TRmTCxg&pid=ImgRaw" alt="Avatar">
+	<p>It's nice to meet you. How are you doing?</p>
+	<span class="time-right">1:00</span>
+</div>
+<div class="container darker">
+	<img src="https://th.bing.com/th/id/R9ede930fd3fdb39399a4947913f50fe2?rik=0AECjN9TRmTCxg&pid=ImgRaw" alt="Avatar" class="right">
+	<p>I'm doing okay today. How are you feeling?</p>
+	<span class="time-left">1:02</span>
+</div>
+<div class="container">
+	<img src="https://th.bing.com/th/id/R9ede930fd3fdb39399a4947913f50fe2?rik=0AECjN9TRmTCxg&pid=ImgRaw" alt="Avatar">
+	<p>Same. Would you like to meet sometime on facebook?</p>
+	<span class="time-right">1:04</span>
+</div>
+<div class="container darker">
+	<img src="https://th.bing.com/th/id/R9ede930fd3fdb39399a4947913f50fe2?rik=0AECjN9TRmTCxg&pid=ImgRaw" alt="Avatar" class="right">
+	<p>Sure thing. Best of luck.</p>
+	<span class="time-left">1:08</span>
+</div>
+</body>
+</html>
